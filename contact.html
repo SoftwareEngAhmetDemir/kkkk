@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <title>@@title</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1, user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        
+        
+        <link rel="stylesheet" href="assets/css/libs.min.css?v=0.0.1">
+        <link rel="stylesheet" href="assets/css/app.min.css?v=0.0.1">
+    </head>
+    <body>
+        <div id="viewport">
+<header id="header">
+
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+
+            <h1 class="mb-0" id="logo">
+                <a class="navbar-brand" href="/">
+                    <img src="./temp/logo.png" alt="Nuroll">
+                </a>
+            </h1>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="ms-icon ms-icon-Rectangle-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="w-100 d-flex justify-content-end navbar-nav my-2 my-lg-0 navbar-nav-scroll text-center">
+                    <li class="navItem">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="navItem">
+                        <a class="nav-link active" aria-current="page" href="#">Certifications</a>
+                    </li>
+                    <li class="navItem">
+                        <a class="nav-link active" aria-current="page" href="#">Products</a>
+                    </li>
+                    <li class="navItem">
+                        <a class="nav-link active" aria-current="page" href="#">About Nuroll</a>
+                    </li>
+                    <li class="navItem">
+                        <a class="nav-link active" aria-current="page" href="#">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+</header>
+<div class="banner">
+    <img src= ./temp/contact.png alt="" srcset="" width="100%">
+    <div class="banner-con">
+        <div class="title">Contact</div>
+        <div class="breadCrumb">
+            <div class="crumb">
+                <ul>
+                     <li><a href="#">Home</a></li>
+                         <li><a href="#">Contact</a></li>
+                        
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="contact">
+    <div class="container">
+        <div class="title-bar">
+            <div class="left-side">Nuroll SpA</div>
+            <div class="d-lg-block d-none right-side">Write Us</div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-12">
+                <div class="iletisim">
+                    <p class="upper">
+                        Strada Conte 81052
+                        Pignataro Maggiore (CE)
+                    </p>
+                    <p class="bottom">
+                        <div>Tel: +39 0823 654090</div>
+                        <div>Fax: +39 0823 654091</div>
+                        <div>Email : info@nuroll.it</div>
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-9 col-12">
+                <div class="d-lg-none d-block form-title">Write Us</div>
+                <form>
+                    <div class="row">
+                        <div class="col-lg-6 col-12">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="Name" aria-describedby="emailHelp" placeholder="Name"
+                                    required>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <input id="Phone" type="tel" name="tel" class="form-control" placeholder="Phone" required="required"
+                                    data-error="Valid phone is required.">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <input id="form_mail" type="text" name="Mail" class="form-control" placeholder="Mail"
+                                    required="required" data-error="mail is required.">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <input id="form_subject" type="text" name="Subject" class="form-control" placeholder="Subject">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="form_Message" name="Message" class="form-control" placeholder="Messages" rows="4"
+                            required="required" data-error="Please, leave us a Message."></textarea>
+                    </div>
+                    <div class="mt-5 mb-5">
+                        <div class="row">
+                            <div class="col-12 col-lg-4">
+                                <div class="form-group">
+                                    <div class="scale-class g-recaptcha" data-sitekey="6LfKURIUAAAAAO50vlwWZkyK_G2ywqE52NU7YO0S"
+                                        data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
+                                    <input class="form-control d-none" data-recaptcha="true" required
+                                        data-error="Please complete the Captcha">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4 d-flex justify-content-center align-items-center mb-lg-0 mb-5">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                    <label class="check-box-text form-check-label ms-3 mt-1" for="flexCheckChecked">
+                                        I agree to the terms of service.
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <input type="submit" class="btn btn-primary" value="Send">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <script src='https://www.google.com/recaptcha/api.js'></script>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="row">
+            <div class="col-lg-4 col-12 border">
+                <div class="firstCol">
+                    <div class="content">
+                        <div class="img"><img src="./temp/logo.png" alt="" srcset="">
+                        </div>
+                        <br />
+                        <div class="text">© Copyright 2022 Nuroll SpA. All Rights Reserved.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-12 border">
+                <div class="secondCol mb-5">
+                    <div class="content">
+                        <div class="title">Nuroll SpA</div>
+                        <div class="iletisim">
+                            <div>
+                                Strada Conte 81052
+                                Pignataro Maggiore (CE)
+                            </div>
+                            <br />
+                            <div>
+                                Tel: +39 0823 654090
+
+                            </div>
+                            <div>
+                                Fax: +39 0823 654091
+
+                            </div>
+                            <div>
+                                Email : info@nuroll.it
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-12 border">
+                <div class="thirdCol">
+                    <a href="#" class="set">
+                        Home
+                    </a>
+                    <a href="#" class="set">
+                        Certifications
+                    </a>
+                    <a href="#" class="set">
+                        Products
+                    </a>
+                    <a href="#" class="set">
+                        About Nuroll
+                    </a>
+                    <a href="#" class="set">
+                        Contact
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center logo">
+            <img src="./temp/yildiz.png" alt="" srcset="">
+        </div>
+    </div>
+</div>
+
+
+
+        <script>
+            var UNIGATE = {
+                current: {
+                    langId: '',
+                    language: 'tr',
+                }
+            }
+        </script>
+        <script src="assets/js/libs.min.js" charset="utf-8"></script>
+        <script src="assets/js/app.min.js" charset="utf-8"></script>
+        <script src="https://www.google.com/recaptcha/api.js?onload=APPloadReCaptcha&render=explicit" async defer></script>
+    </body>
+</html>
